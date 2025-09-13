@@ -7,10 +7,27 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Atualmente, a contratação de serviços manuais (como pintura, elétrica ou hidráulica) ocorre de forma informal e descentralizada. Clientes recorrem a grupos de WhatsApp, redes sociais, anúncios de internet ou indicações de conhecidos para encontrar prestadores de serviço. Esse processo traz diversos problemas: insegurança, falta de garantias e dificuldade de verificar a qualidade do profissional.
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+Exemplo de como o processo acontece hoje:
+
+O cliente percebe a necessidade de um serviço.
+
+Ele procura por profissionais em grupos, redes sociais ou por indicação de conhecidos.
+
+A negociação acontece de maneira informal, via telefone ou mensagens.
+
+O pagamento é feito diretamente (dinheiro ou transferência), sem contrato.
+
+O serviço é executado, mas sem garantia formal ou registro de avaliação.
+
+Esse fluxo é manual, ineficiente e sem padrão, gerando riscos como golpes, serviços mal executados e falta de transparência. Os profissionais também sofrem, já que trabalham de forma informal e com baixa visibilidade.
+
+Diante desse cenário, o projeto está sendo desenvolvido para organizar e formalizar esse processo, trazendo benefícios tanto para clientes quanto para prestadores. Atualmente, os processos de busca e contratação são manuais e pouco organizados, o que gera perda de tempo, retrabalho e insegurança. O projeto propõe criar uma plataforma digital onde os clientes possam encontrar profissionais de forma prática, segura e transparente.
+
+Como solução, o prestador de serviço terá a oportunidade de criar um perfil profissional, cadastrar seus serviços, definir horários e ampliar sua visibilidade para potenciais clientes. Já os clientes poderão contar com um ambiente confiável, com histórico de avaliações, garantia de qualidade e maior segurança na contratação.
+
+Assim, o projeto busca reduzir riscos, aumentar a eficiência e dar mais credibilidade para ambos os lados, transformando um processo antes informal em uma experiência estruturada e confiável.
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
