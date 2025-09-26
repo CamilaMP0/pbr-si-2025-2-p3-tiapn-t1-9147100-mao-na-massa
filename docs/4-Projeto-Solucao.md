@@ -17,30 +17,40 @@
 
 ### 4.2. Protótipos de telas
 
-O wireframe apresenta as duas telas principais que compõem o Processo 1 – Login e Cadastro de Usuários, representando a interação entre usuário e sistema.
-**Tela de Cadastro ("Criar Conta:")**
-Na tela de cadastro, o usuário que ainda não possui registro pode criar sua conta na plataforma. Os campos obrigatórios permitem que o sistema colete informações essenciais para a identificação e autenticação futura.
-Campos disponíveis:
-* Nome Completo (Caixa de texto – obrigatório)
-* CPF (Caixa de texto – numérico, obrigatório)
-* Telefone (Caixa de texto – numérico, opcional)
-* Matrícula (Caixa de texto – obrigatório)
-* E-mail Institucional (Caixa de texto – obrigatório, formato válido)
-* Senha (Caixa de texto – obrigatório, mínimo 8 caracteres)
-* Confirmar Senha (Caixa de texto – deve coincidir com a senha)
-* Tipo de Entidade (Seleção única – opções: Aluno ou Professor)
-Ação principal:
-* Botão "Confirmar" → envia os dados para validação e registro no banco de dados, conforme o fluxo do processo BPMN.
----
-**Tela de Login ("Entrar")**
-Na tela de login, o usuário já cadastrado pode acessar a plataforma utilizando suas credenciais.
-Campos disponíveis:
-* E-mail Institucional / Matrícula (Caixa de texto – obrigatório)
-* Senha (Caixa de texto – obrigatório)
-Ações principais:
-* Botão "Confirmar" → valida as credenciais e direciona o usuário para o sistema, caso estejam corretas.
-* Link "Não possui cadastro? Clique aqui" → direciona o usuário para a tela de cadastro, caso ainda não tenha registro.
-![Exemplo de Wireframe](../docs/images/wf_processo1.jpg)
+Os protótipos de tela foram desenvolvidos no formato de wireframes, com o objetivo de representar a estrutura e o fluxo de navegação do sistema antes da implementação final. Eles permitem visualizar a disposição dos elementos principais da interface e como o usuário interage com a plataforma.
+
+O design buscou atender aos requisitos funcionais, garantindo acesso rápido aos serviços e funcionalidades descritas nas histórias de usuário, e aos requisitos não funcionais, priorizando usabilidade, clareza e organização.
+
+Na tela inicial, por exemplo, destacamos:
+
+Menu de navegação com acesso rápido às principais seções (Início, Serviços, Depoimentos, Contato e Sobre);
+
+Área de destaque com chamada principal e botões de ação (“Solicitar orçamento” e “Ver Serviços”);
+
+Lista de benefícios que reforçam a confiabilidade do serviço;
+
+Espaço para imagens ou banners ilustrativos.
+
+Além da tela inicial, foram elaborados protótipos para:
+
+Página de Serviços: listagem das categorias de serviços disponíveis com filtros e botão de solicitação.
+
+Página de Depoimentos: espaço para exibir feedback de clientes.
+
+Esses protótipos orientam a implementação do sistema, permitindo validar a experiência do usuário e alinhar o desenvolvimento às necessidades do projeto.
+![Exemplo de Wireframe](images/wireframe-example.png)
+
+São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+ 
+> **Links Úteis**:
+> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
+> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
+> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+> - [Figma](https://www.figma.com/)
+> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
+> - [Axure](https://www.axure.com/edu) (Licença Educacional)
+> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
 
 ## Diagrama de Classes
 
